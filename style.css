@@ -1,0 +1,40 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: solid 1px;
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  background: lightgray;
+  transform: translateX(-600px);
+}
+.img {
+  width: 600px;
+  height: 400px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.button {
+  width: 600px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:gray;
+  margin: 0 auto;
+}
+.prevButton,.nextButton {
+  background-color: gray;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.page {
+  font-size: 20px;
+  margin: 0 10px;
+}
